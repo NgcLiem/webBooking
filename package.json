@@ -1,0 +1,33 @@
+{
+  "name": "webbooking",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000w\u0000e\u0000b\u0000B\u0000o\u0000o\u0000k\u0000i\u0000n\u0000g\u0000\r\u0000 \u0000",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "sass --watch src/resources/scss:src/public/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NgcLiem/webBooking.git"
+  },
+  "keywords": [
+    "shoe"
+  ],
+  "author": "liem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NgcLiem/webBooking/issues"
+  },
+  "homepage": "https://github.com/NgcLiem/webBooking#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10",
+    "sass": "^1.92.1"
+  }
+}

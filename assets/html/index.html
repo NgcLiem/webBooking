@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="stylesheet" href="./js./main.js"> -->
+
+</head>
+
+<body>
+    <form action="" class="form1">
+        <label for="">So nguoi: </label>
+        <input type="number" class="count" required>
+        <br>
+        <label for="">Ngay check in: </label>
+        <input type="date" class="dateCheckIn" required>
+        <br>
+        <label for="">Ngay check out: </label>
+        <input type="date" class="dateCheckOut" required>
+        <br>
+        <button>submit</button>
+    </form>
+
+    <script>
+        const form1 = document.querySelector('.form1');
+        form1.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const count = document.querySelector('.count').value;
+            const dateCheckIn = document.querySelector('.dateCheckIn').value;
+            const dateCheckOut = document.querySelector('.dateCheckOut').value;
+            console.log(count, dateCheckIn, dateCheckOut);
+        });
+    </script>
+</body>
+
+</html>

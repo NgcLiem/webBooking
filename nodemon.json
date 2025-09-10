@@ -1,0 +1,10 @@
+{
+    "watch": [
+        "src"
+    ],
+    "ext": "js,json,css,scss",
+    "ignore": [
+        "src/public/*",
+        "node_modules"
+    ]
+}
